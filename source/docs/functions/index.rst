@@ -5,7 +5,7 @@ Built-In Functions
 Functional Programming
 ----------------------
 `map`_
-    Applies function to every item of an iterable object and returns a list of the results.
+    Applies function to every item of an iterable object and returns a map object, witch is a which is an iterator that yields items on demand. That’s why you need to call list() to create the desired list object.
 `filter`_
     Returns a sequence from those elements of iterable for which function returns True.
 `reduce`_
